@@ -1,0 +1,173 @@
+{
+    "app_title": "Contact Manager Program",
+    "label_id": "ID",
+    "label_name": "Name",
+    "label_nickname": "Nickname",
+    "label_phone": "Phone",
+    "label_email": "Email",
+    "label_address": "Address",
+    "label_workplace": "Workplace",
+    "label_work_email": "Work Email",
+    "label_work_phone": "Work Phone",
+    "label_note": "Note",
+    "button_new_contact": "New contact (Ctrl+N)",
+    "button_search": "Search (Ctrl+K)",
+    "button_modify": "Modify (Ctrl-M)",
+    "button_abc_sort": "ABC Listing (Ctrl-A)",
+    "button_delete": "Delete contact (Ctrl-T)",
+    "button_save": "Save (Ctrl+S)",
+    "button_load": "Load (Ctrl+L)",
+    "button_clear": "Clear record (Ctrl-R)",
+    "error_title": "Error",
+    "error_empty_fields": "Name and phone are required!",
+    "error_no_contact_selected": "No contact selected!",
+    "info_title": "Info",
+    "info_data_saved": "Data saved successfully!",
+    "info_data_loaded": "Data loaded successfully!",
+    "confirm_title": "Confirmation",
+    "confirm_delete": "Are you sure you want to delete?",
+    "confirm_unsaved": "There are unsaved changes. Do you want to save?",
+    "footer_info": "Current database: {database} | Loaded data: {total} | Search results: {search_count}",
+    "footer_version": "Version: {version} | Print date: {current_time}",
+    "eco_message": "Varga László & a DeepSeek Chat team's (2025.03.20.)😊",
+    "program_title": "Contact Manager Program",
+    "yes": "Yes",
+    "no": "No",
+    "error_file_not_found": "contacts.json file not found, empty list loaded.",
+    "error_pdf_open_failed": "Error occurred while generating PDF",
+    "error_email_empty": "Email field is empty!",
+    "error_duplicate_ids": "Duplicate IDs found: {duplicate_ids}",
+    "error_no_duplicates": "No duplicate IDs found.",
+    "info_pdf_created": "PDF file created: {filename}",
+    "info_pdf_excel_created": "PDF and Excel files created: {pdf_filename}, {excel_filename}",
+    "info_csv_created": "CSV file created: {filename}",
+    "error_csv_open_failed": "Error occurred while creating CSV file",
+    "info_rebuild_ids": "IDs have been successfully rebuilt.",
+    "qr_call_label": "Call QR code",
+    "qr_vcard_label": "vCard QR code",
+    "menu_file": "File",
+    "menu_new_contact": "New contact",
+    "menu_search": "Search",
+    "menu_modify": "Modify",
+    "menu_delete": "Delete contact",
+    "menu_save": "Save",
+    "menu_load": "Load",
+    "menu_clear": "Clear record",
+    "menu_exit": "Exit",
+    "toggle_language": "Switch language",
+    "menu_check_duplicates": "Check duplicate IDs",
+    "menu_rebuild_ids": "Rebuild IDs",
+    "menu_print": "Print",
+    "menu_print_selected": "Selected contact to PDF",
+    "menu_print_all": "Full list to PDF",
+    "menu_export_csv": "Full list to CSV",
+    "menu_help": "Help",
+    "menu_user_guide": "User documentation",
+    "menu_description": "Program description",
+    "menu_dark_mode": "Toggle dark mode",
+    "menu_print_user_guide": "Print user guide to PDF",
+    "menu_print_description": "Print program description to PDF",
+    "menu_switch_database": "Switch database (Ctrl+D)",
+    "menu_new_database": "New database (Ctrl+Shift+N)",
+    "version": "Version",
+    "info_database_switched": "Database successfully switched: {database}",
+    "info_new_database_created": "New database created: {database}",
+    "confirm_switch_database": "There are unsaved changes. Are you sure you want to switch database?",
+    "confirm_new_database": "There are unsaved changes. Are you sure you want to create new database?",
+    "select_database_title": "Select database",
+    "select_database_prompt": "Choose database to use:",
+    "user_guide": {
+        "title": "User Guide",
+        "sections": {
+            "intro": {
+                "title": "1. Introduction",
+                "content": "Deep.py is a Python-based contact manager application that stores contacts in JSON files. Main features:",
+                "items": [
+                    "Add/edit/delete contacts",
+                    "Search by name, phone or email",
+                    "Export data to PDF and CSV",
+                    "QR code generation",
+                    "Dark/light theme selection",
+                    "Multi-language support (Hungarian, English)"
+                ]
+            },
+            "installation": {
+                "title": "2. Installation and Running",
+                "content": "2.1. Install prerequisites:",
+                "items": [
+                    "pip install pillow qrcode reportlab pandas",
+                    "Install fonts (for PDF generation)"
+                ]
+            },
+            "interface": {
+                "title": "3. Interface Guide",
+                "content": "3.1. Main window elements:",
+                "items": [
+                    "Name/Nickname: Required field (min. 3 chars)",
+                    "Phone: Required (format: +36...)",
+                    "Email: Optional, checks for @ character",
+                    "Work details: Optional",
+                    "Note: Multi-line text field (max 500 chars)"
+                ]
+            },
+            "data_structure": {
+                "title": "4. Data File Structure",
+                "content": "Structure of contacts.json:",
+                "items": [
+                    "id: Unique identifier (auto)",
+                    "name: Required (full name)",
+                    "phone: Required (phone number)",
+                    "email: Optional (email address)",
+                    "work_email: Optional (work email)"
+                ]
+            },
+            "faq": {
+                "title": "5. Frequently Asked Questions",
+                "content": "❓ How to make a backup?",
+                "items": [
+                    "→ Copy contacts.json to another folder",
+                    "❓ Why dark mode doesn't appear?",
+                    "→ Check settings.json (\"dark_mode\": true)",
+                    "❓ How to export to Excel?",
+                    "→ Use CSV export then open in Excel"
+                ]
+            }
+        }
+    },
+    "description": {
+        "title": "Program Description",
+        "sections": {
+            "purpose": {
+                "title": "1. Purpose",
+                "content": "The goal of this program is to create a simple but efficient contact manager that:",
+                "items": [
+                    "Provides easy-to-use graphical interface",
+                    "Is cross-platform (Windows, Linux, macOS)",
+                    "Is open source and modifiable"
+                ]
+            },
+            "tech": {
+                "title": "2. Technical Background",
+                "content": "The program uses following technologies:",
+                "items": [
+                    "Python 3.x",
+                    "Tkinter GUI library",
+                    "JSON data storage",
+                    "ReportLab PDF generation",
+                    "Pandas data handling"
+                ]
+            },
+            "features": {
+                "title": "3. Key Features",
+                "content": "Main program features:",
+                "items": [
+                    "Full CRUD operations (Create, Read, Update, Delete)",
+                    "Search and filter",
+                    "Data export to multiple formats",
+                    "Customizable interface (theme, language)",
+                    "Paper-saving printing"
+                ]
+            }
+        }
+    }
+}

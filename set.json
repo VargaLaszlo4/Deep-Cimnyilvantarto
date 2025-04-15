@@ -1,0 +1,10 @@
+{
+    "dark_mode": true,
+    "window": "800x800+360+10",
+    "lang": "hu",
+    "icon_size": 14,
+    "menu_text_size": 9,
+    "button_text_size": 9,
+    "pages_saved": 40,
+    "current_database": "contacts.json"
+}
