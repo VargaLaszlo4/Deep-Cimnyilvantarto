@@ -11,7 +11,7 @@ A „Deep” címnyilvántartó program segít a kapcsolatok szervezésében és
 1. Klónozd a repository-t:  
    ```bash
    git clone https://github.com/VargaLaszlo4/Deep-Cimnyilvantarto.git
-   ### Közreműködők  
+- ## Közreműködők  
 - [Varga László](https://github.com/VargaLaszlo4)  
 - [Szebi](https://github.com/szebi-profil)  
 -  ![Képernyőkép_2025-04-14_17-17-32](https://github.com/user-attachments/assets/400bec98-611f-44bb-bc0a-b0f57a01a245)
